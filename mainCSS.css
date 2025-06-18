@@ -102,19 +102,6 @@ nav a:hover{
     max-width: 100px;
 }
 
-@media (max-width: 700px) {
-    .timeline {
-        flex-direction: column;
-        gap: 34px;
-    }
-    .timeline-line {
-        width: 4px;
-        height: 50px;
-        margin: 10px 0;
-        background: black;
-    }
-}
-
 #projects{
     display: flex;
     justify-content: center;
@@ -227,10 +214,114 @@ i{
     border-radius: 20px;
 }
 
-
 #skills li{
     list-style-type: none;
     margin: 10px
+}
+
+@media (max-width: 700px) {
+    .timeline {
+        flex-direction: column;
+        gap: 34px;
+    }
+    .timeline-line {
+        width: 4px;
+        height: 50px;
+        margin: 10px 0;
+        background: black;
+    }
+}
+
+@media (max-width: 700px) {
+    nav {
+        height: auto;
+        padding-bottom: 8px;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-left: 0;
+    }
+    nav ul li {
+        margin: 14px 0 0 16px;
+        display: block;
+    }
+
+    #aboutMe {
+        margin: 24px 8px 0 8px;
+    }
+    .aboutMeText {
+        flex-direction: column;
+        align-items: center;
+    }
+    .textAboutMe {
+        width: 96vw;
+        margin: 14px 0 0 0;
+        font-size: 1rem;
+    }
+    .imageContainer {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 24px;
+    }
+    .profilePic {
+        width: 160px;
+        height: 160px;
+        margin-bottom: 12px;
+    }
+    #projects {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 94vw;
+        min-width: 0;
+        max-width: 98vw;
+        height: auto;
+        margin: 18px 0;
+        padding: 10px 6px 8px 6px;
+    }
+    .card-logo {
+        width: 80px;
+    }
+    #contact {
+        width: 98vw;
+        min-width: 0;
+        max-width: 100vw;
+        padding: 18px 3vw;
+        margin: 28px auto;
+        border-radius: 14px;
+    }
+    #skills {
+        margin: 12px 2vw;
+    }
+    .skillsGrid {
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+    }
+    .typeSkill {
+        width: 92vw;
+        margin-bottom: 14px;
+    }
+    #skills h2 {
+        margin: 22px 0;
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .card, .typeSkill, .textAboutMe, #contact {
+        padding-left: 4vw;
+        padding-right: 4vw;
+    }
+    .card-header {
+        font-size: 1rem;
+    }
+    .textAboutMe {
+        font-size: 0.98rem;
+    }
 }
 
 
