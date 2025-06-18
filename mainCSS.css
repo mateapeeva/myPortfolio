@@ -1,0 +1,165 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat";
+}
+nav ul li {
+    display:  inline-block;
+    list-style-type: none;
+    margin: 20px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 60px;
+    z-index: 1000;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    border-bottom: solid 1px white;
+}
+#aboutMe{
+    margin: 60px;
+}
+.aboutMeText{
+    display:  flex;
+    justify-content: center;
+}
+.textAboutMe{
+    width: 700px;
+    text-align: justify;
+    margin:20px;
+}
+.imageContainer{
+    display: flex;
+    margin-top: 60px;
+}
+.profilePic {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 18px;
+    display: block;
+}
+.timeline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 48px 0;
+}
+
+.timeline-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 200px;
+}
+
+.timeline-dot {
+    width: 28px;
+    height: 28px;
+    background: black;
+    border-radius: 50%;
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.timeline-label {
+    text-align: center;
+    font-size: 1.08rem;
+    font-weight: 600;
+    color: black;
+}
+
+.timeline-label span {
+    display: block;
+    font-size: 0.96rem;
+    font-weight: 400;
+    color: gray;
+    margin-top: 4px;
+}
+
+.timeline-line {
+    flex: 1;
+    height: 4px;
+    background: black;
+    margin: 0 10px;
+    border-radius: 2px;
+    min-width: 40px;
+    max-width: 100px;
+}
+
+@media (max-width: 700px) {
+    .timeline {
+        flex-direction: column;
+        gap: 34px;
+    }
+    .timeline-line {
+        width: 4px;
+        height: 50px;
+        margin: 10px 0;
+        background: black;
+    }
+}
+
+#projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    padding: 16px 16px 12px 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.card:hover{
+    border-radius: 20px;
+    background-color: lightgray;
+}
+
+.card-logo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 8px;
+    margin-top: 6px;
+    opacity: 0.85; /* subtle transparency if you want */
+    display: block;
+}
+
+.card-header {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+    color: black;
+    align-self: flex-start;
+}
+
+.card p {
+    color: gray;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 0;
+    text-align: justify;
+}
+
+
