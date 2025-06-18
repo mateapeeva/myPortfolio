@@ -244,10 +244,12 @@ i{
 
     #aboutMe {
         margin: 24px 8px 0 8px;
+        margin-top: 80px !important;
     }
     .aboutMeText {
         flex-direction: column;
         align-items: center;
+        margin-top: 80px !important;
     }
     .textAboutMe {
         width: 94vw;
