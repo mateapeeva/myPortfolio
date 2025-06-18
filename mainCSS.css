@@ -223,33 +223,29 @@ i{
 
 @media (max-width: 700px) {
     nav {
-        height: auto;
-        padding-bottom: 8px;
+        height: 60px;
+        min-height: 60px;
+        padding: 0;
     }
     nav ul {
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
-        padding-left: 0;
         padding: 0;
+        margin: 0;
     }
     nav ul li {
         margin: 12px 0 0 16px;
         display: block;
     }
 
-    #aboutMe, .aboutMeText, #projects, #skills, #contact {
-        margin-top: 80px !important;
-    }
-
     #aboutMe {
-        margin: 24px 8px 0 8px;
-        margin-top: 80px !important;
+        margin: 80px 8px 0 8px;
     }
     .aboutMeText {
         flex-direction: column;
         align-items: center;
-        margin-top: 80px !important;
+        margin-top: 0;
     }
     .textAboutMe {
         width: 94vw;
@@ -281,6 +277,7 @@ i{
     #projects {
         flex-direction: column;
         align-items: center;
+        margin-top: 32px;
     }
     .card {
         width: 95vw;
@@ -298,7 +295,7 @@ i{
     }
 
     #skills {
-        margin: 12px 2vw;
+        margin: 32px 2vw 0 2vw;
     }
     #skills h2 {
         margin: 18px 0 16px 0;
@@ -335,7 +332,7 @@ i{
         width: 97vw;
         max-width: 99vw;
         padding: 18px 2vw;
-        margin: 24px auto;
+        margin: 32px auto 0 auto;
         border-radius: 12px;
     }
 }
