@@ -42,6 +42,11 @@ nav a:hover{
     text-align: justify;
     margin:20px;
 }
+
+.textAboutMe p{
+    font-size:  1.1rem;
+}
+
 .imageContainer{
     display: flex;
     margin-top: 60px;
@@ -219,6 +224,28 @@ i{
 #skills li{
     list-style-type: none;
     margin: 10px
+}
+.black-btn {
+    background: #111;
+    color: #fff;
+    border: none;
+    padding: 10px 26px;
+    border-radius: 25px;
+    font-size: 1.08rem;
+    font-family: inherit;
+    font-weight: 500;
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+
+.black-btn:hover,
+.black-btn:focus {
+    background: #333;
+    color: #ffe066;
+    outline: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
 
