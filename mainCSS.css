@@ -31,7 +31,8 @@ nav a:hover{
     border-bottom: solid 1px white;
 }
 #aboutMe{
-    margin: 100px;
+    margin-top: 100px;
+    margin-bottom: 60px;
 }
 .aboutMeText{
     display:  flex;
@@ -120,6 +121,7 @@ nav a:hover{
     justify-content: center;
     align-items: center;
     align-items: stretch;
+    margin: 8px 0;
 }
 .card {
     width: 400px;
